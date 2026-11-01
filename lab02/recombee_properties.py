@@ -18,7 +18,7 @@ client = RecombeeClient(DB_NAME, PRIVATE_TOKEN, region=Region.EU_WEST)
 # TODO 2: Configurare dataset propriu
 # Descarcati un dataset (CSV) de pe Kaggle/data.world (100-10K de intrari)
 # Urcati fisierul in acelasi folder cu acest script si setati numele in variabila de mai jos
-PATH_DATASET = 'books.csv' 
+PATH_DATASET = '../books.csv' 
 
 # TODO 3: Definirea schemei de date (minim 3 proprietati)
 # Adaptati aceasta lista in functie de coloanele din dataset-ul ales
